@@ -8,7 +8,7 @@ This program generates a depth map that calculates the differences in coloration
 
 <b>calcDepthOptimized.c</b> -> Optimizes the solution using preprocessor directives (#pragma parallelization), loop optimization, etc. <br>
 
-<b>make_qtree.c</b> -> The program also creates a "quadtree," a recursive data structure that makes a tree-like representation of a depth-map using its color values. <br>
+<b>make_qtree.c</b> -> Creates a "quadtree," a recursive data structure that makes a tree-like representation of a depth-map using its color values. <br>
 
 <b>quad2matrix.c</b> -> Converts the quadtree into its original matrix representation. <br>
 
